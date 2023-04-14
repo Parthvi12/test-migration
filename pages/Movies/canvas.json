@@ -64,6 +64,94 @@
                       "isVisible": true,
                       "labelTextSize": "0.875rem",
                       "label": "Title"
+                    },
+                    "vote_average": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.vote_average))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "5",
+                      "isCustomField": false,
+                      "accessor": "vote_average",
+                      "identifier": "vote_average",
+                      "position": 1,
+                      "originalIdentifier": "vote_average",
+                      "boxShadow": "none",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Vote Average"
+                    },
+                    "vote_count": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.vote_count))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "op",
+                      "isCustomField": false,
+                      "accessor": "vote_count",
+                      "identifier": "vote_count",
+                      "position": 2,
+                      "originalIdentifier": "vote_count",
+                      "boxShadow": "none",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Vote Count"
+                    },
+                    "poster_path": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.poster_path))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "op",
+                      "isCustomField": false,
+                      "accessor": "poster_path",
+                      "identifier": "poster_path",
+                      "position": 3,
+                      "originalIdentifier": "poster_path",
+                      "boxShadow": "none",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Poster Path"
+                    },
+                    "status": {
+                      "children": {},
+                      "dataType": "string",
+                      "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.status))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "fieldType": "Text Input",
+                      "sourceData": "Released]",
+                      "isCustomField": false,
+                      "accessor": "status",
+                      "identifier": "status",
+                      "position": 4,
+                      "originalIdentifier": "status",
+                      "boxShadow": "none",
+                      "borderRadius": "{{((sourceData, formData, fieldState) => (appsmith.theme.borderRadius.appBorderRadius))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "accentColor": "{{((sourceData, formData, fieldState) => (appsmith.theme.colors.primaryColor))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
+                      "iconAlign": "left",
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "isSpellCheck": false,
+                      "isVisible": true,
+                      "labelTextSize": "0.875rem",
+                      "label": "Status"
                     }
                   },
                   "position": -1,
@@ -167,6 +255,42 @@
                 },
                 {
                   "key": "schema.__root_schema__.children.title.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.vote_average.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.vote_average.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.vote_average.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.vote_count.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.vote_count.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.vote_count.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.poster_path.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.poster_path.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.poster_path.accentColor"
+                },
+                {
+                  "key": "schema.__root_schema__.children.status.defaultValue"
+                },
+                {
+                  "key": "schema.__root_schema__.children.status.borderRadius"
+                },
+                {
+                  "key": "schema.__root_schema__.children.status.accentColor"
                 }
               ],
               "borderWidth": "0",
